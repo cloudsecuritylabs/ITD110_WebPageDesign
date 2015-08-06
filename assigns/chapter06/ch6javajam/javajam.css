@@ -1,0 +1,63 @@
+body {
+    background-color: #F5F5DC;
+    color: #2E0000;
+    background-image: url(javabackground.gif);
+    font-family: Vernada, Arial, sans-serif;
+}
+
+header {
+    background-color: #D2B48C;
+
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
+footer {
+    background-color: #D2B48C;
+    color: #000000;
+    font-size: 0.6em;
+    font-style: italic;
+    text-align: center;
+    padding: 20px;
+}
+
+img {
+ border-style: none;   
+}
+
+h1 {
+    height: 100px;
+    background-image: url(javalogo.gif);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -9999px;   
+}
+
+h3 {
+ background-color: #E6D6A9;   
+    text-transform: uppercase;
+}
+
+ul {
+    list-style-image: url(marker.gif);
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: #F5F5DC;
+    min-width: 960px;
+ 
+}
+
+#content {
+    padding: 1px 20px 20px 20px;
+}
+
+dt {
+    font-weight: bold;
+}
