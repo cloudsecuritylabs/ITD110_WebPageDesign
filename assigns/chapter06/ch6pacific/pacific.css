@@ -1,0 +1,89 @@
+/*stylesheet edited for Assignment 6A*/
+
+body {
+    background-color: #FFFFFF;
+    background-image: url(ptrbackground.jpg);
+    color: #666666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: #000033;
+    color: #FFFFFF;
+    background-image: url(sunset.jpg); /* add a background*/
+    background-position: right; /*position the image to the right*/
+    background-repeat: no-repeat; /*set the image not to repeat*/
+}
+
+nav {
+    background-color: #90C7E3;
+}
+
+h1 {
+    padding: 10px; /* 10 px did not work; had to keep 10px all together*/
+    margin-bottom: 0;
+    font-family: Georgia, "Times New Roman", serif;
+    
+}
+
+h2 {
+    color: #3399CC;
+    text-shadow: 1px 1px 1px #ccc;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+h3 {
+    color: #000033;  
+    font-family: Georgia, "Times New Roman", serif;
+}
+/*old ul style removed as per assignment guideline
+ul {
+    list-style-image: url(marker.gif); 
+}
+*/
+dt {
+    color: #000033;
+}
+
+.resort {
+    color: #5C7FA3;
+    font-weight: bold;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    min-width: 960px;
+    background-color: #FFFFFF;
+    box-shadow: 5px 5px 5px #000033;
+
+}
+
+nav {
+    padding: 5px 5px 5px 20px;
+    font-weight: bold;
+}
+
+#content {
+    padding: 1px 20px 20px 20px;   
+}
+
+#content ul {
+    list-style-image: url(marker.gif);
+    list-style-position: inside;
+}
+
+#contact {
+    font-size: 90%;
+    padding: 20px; /*need this to be consistent with the rest of the page*/
+}
+
+footer {
+    padding: 20px;
+    font-size: 75%;
+    font-style: italic;
+    font-family: Georgia, "Times New Roman", serif;
+    
+}
+
